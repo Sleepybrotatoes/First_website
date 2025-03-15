@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "A personal website project for showcasing my work and blog while studying at university.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step can be added here'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "blog",
+    "university"
+  ],
+  "author": "Kynan Patterson",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
