@@ -5,8 +5,6 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333; /* Default text color */
-    border: 10px solid #000; /* Border around the edges */
-    box-sizing: border-box; /* Include padding and border in width/height */
 }
 
 }
