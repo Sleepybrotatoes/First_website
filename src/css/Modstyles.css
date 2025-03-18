@@ -9,13 +9,6 @@ body {
     box-sizing: border-box; /* Include padding and border in width/height */
 }
 
-.border-container {
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1200px; /* Center content and limit width */
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
