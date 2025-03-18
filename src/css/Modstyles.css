@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333; /* Default text color */
+    border: 10px solid #000; /* Border around the edges */
+    box-sizing: border-box; /* Include padding and border in width/height */
+}
+
+.border-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px; /* Center content and limit width */
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #e8491d;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e8491d;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #35424a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #e8491d;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #e8491d;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center the images horizontally */
+    flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.image-gallery img {
+    max-width: 100px; /* Set a maximum width for images */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a border around images */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    transition: transform 0.3s; /* Optional: Add a hover effect */
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1); /* Optional: Slightly enlarge on hover */
+}
+
+.mod-ideas-container {
+    display: flex;
+    gap: 20px; /* Space between sections */
+    justify-content: space-between; /* Distribute sections evenly */
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    overflow-x: auto; /* Add horizontal scrolling if needed */
+}
+
+.mod-idea {
+    flex: 1; /* Make all sections equal width */
+    max-width: 300px; /* Optional: Set a max width for each section */
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: Add a border around each section */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    text-align: center; /* Center-align text */
+}
